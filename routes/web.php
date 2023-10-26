@@ -30,17 +30,4 @@ Route::get('/', function () {
     dump($ratings);
     dump($producers);
     dump($categories);
-
-    // // $author = Goods::first();
-    // // $rating = $author->ratings;
-
-    $good = Goods::first();
-    $rating = $good->ratings;
-    dump($rating);
-    
-    // $producers = Producers::all()[1-1];
-    // $goods = $producers->pgoods;
-    // dump($goods[0]);
-
-
 });
